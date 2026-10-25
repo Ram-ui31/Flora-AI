@@ -1,0 +1,42 @@
+{
+ "song": "moisesdb/05e7af85-9721-4b42-952a-ccd34feb6033",
+ "seconds": 30.0,
+ "rows": [
+  {
+   "listeners": 1,
+   "hops": 58,
+   "lost_pieces": 0,
+   "delay_p50_s": 1.123,
+   "delay_p95_s": 1.149,
+   "delay_max_s": 1.182,
+   "delay_first10s_p50": 1.122,
+   "delay_last10s_p50": 1.123,
+   "max_backlog_s": 0.376,
+   "keeps_up": true
+  },
+  {
+   "listeners": 2,
+   "hops": 116,
+   "lost_pieces": 0,
+   "delay_p50_s": 1.183,
+   "delay_p95_s": 1.302,
+   "delay_max_s": 1.339,
+   "delay_first10s_p50": 1.186,
+   "delay_last10s_p50": 1.18,
+   "max_backlog_s": 0.481,
+   "keeps_up": true
+  },
+  {
+   "listeners": 4,
+   "hops": 232,
+   "lost_pieces": 0,
+   "delay_p50_s": 1.45,
+   "delay_p95_s": 1.81,
+   "delay_max_s": 1.892,
+   "delay_first10s_p50": 1.471,
+   "delay_last10s_p50": 1.449,
+   "max_backlog_s": 0.499,
+   "keeps_up": true
+  }
+ ]
+}

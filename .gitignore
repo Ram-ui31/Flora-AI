@@ -1,0 +1,41 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.coverage
+htmlcov/
+# Model artifacts, datasets and generated media
+checkpoints/
+datasets/
+outputs/
+separated/
+logs/
+runs/
+manifest*.json
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.ogg
+*.aiff
+*.mp4
+*.zip
+*.tar
+*.gz
+# Local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+.vscode/
+.idea/
+# Machine-specific demo catalog; keep the empty tracked default
+# Use demo/index.example.json to create entries for local audio files.
